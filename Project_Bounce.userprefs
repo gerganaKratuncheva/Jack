@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\CharacterMotor.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\BallBounceUp2.js">
     <Files>
-      <File FileName="Assets\Script\CharacterMotor.js" Line="179" Column="18" />
-      <File FileName="Assets\Script\BallBounceUp.cs" Line="9" Column="33" />
+      <File FileName="Assets\Script\BallBounceUp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BallBounceUp2.js" Line="14" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
