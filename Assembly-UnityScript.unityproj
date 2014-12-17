@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\BallBounceUp2.js" />
      <Compile Include="Assets\Script\CharacterMotor.js" />
+     <Compile Include="Assets\Script\JacksPickUps.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

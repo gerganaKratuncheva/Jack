@@ -4,6 +4,7 @@ public var jumpHeight = 20;
 private var jumping = false;
 public var bounceCounter =-1;
 var sprite : SpriteRenderer;
+public var needPickup = 0;
 
 /*function Start ()
 {
@@ -15,12 +16,22 @@ var sprite : SpriteRenderer;
 function Update () 
 {
 
+
+if(bounceCounter <=2 && jumping == true && Input.GetMouseButtonDown(0))
+{
+		Debug.Log("you cought it");
+}
+
+
 if (Input.GetMouseButtonDown(0) && jumping == false)
 {
+	needPickup++;
 	rigidbody2D.velocity.y = jumpHeight;
 }
 
+	
 	jumping = true;
+		
 
 }
 
