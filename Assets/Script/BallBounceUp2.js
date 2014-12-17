@@ -15,7 +15,7 @@ var sprite : SpriteRenderer;
 function Update () 
 {
 
-if (Input.GetKeyDown(KeyCode.Space) && jumping == false)
+if (Input.GetMouseButtonDown(0) && jumping == false)
 {
 	rigidbody2D.velocity.y = jumpHeight;
 }
