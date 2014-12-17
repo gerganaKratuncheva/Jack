@@ -16,7 +16,7 @@ public var needPickup = 0;
 function Update () 
 {
 
-
+//checks to see if you can still catch the ball.
 if(bounceCounter <=2 && jumping == true && Input.GetMouseButtonDown(0))
 {
 		Debug.Log("you cought it");
