@@ -15,9 +15,15 @@ public var needPickup = 0;
 
 function Update () 
 {
+// looks to squish the ball on the second touching of the ground
+/*if(bounceCounter > 0 && OnCollisionEnter2D == true) 
+{
+	sprite.sprite = Resources.Load("KrasioBallFrame2", typeof(Sprite));
+}*/
+
 
 //checks to see if you can still catch the ball.
-if(bounceCounter <=2 && jumping == true && Input.GetMouseButtonDown(0))
+if(bounceCounter <2 && jumping == true && Input.GetMouseButtonDown(0))
 {
 		Debug.Log("you cought it");
 }
@@ -31,6 +37,7 @@ if (Input.GetMouseButtonDown(0) && jumping == false)
 
 	
 	jumping = true;
+	
 		
 
 }
