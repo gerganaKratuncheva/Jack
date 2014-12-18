@@ -1,11 +1,11 @@
 ﻿#pragma strict
 
-public var jumpHeight = 20;
+public var jumpHeight = 35;
 private var jumping = false;
 public var bounceCounter =-1;
 var sprite : SpriteRenderer;
 public var needPickup = 1;
-
+var caughtWin = false;
 
 function Start ()
 {
@@ -31,7 +31,7 @@ function OnMouseOver ()
 if(bounceCounter <2 && jumping == true && Input.GetMouseButtonDown(0))
 {
 		needPickup++;
-		Debug.Log("you cought it");
+		Debug.Log("you caught it");
 }
 
 // the jump if it's still on the ground
