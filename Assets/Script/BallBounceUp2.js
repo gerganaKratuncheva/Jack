@@ -13,6 +13,15 @@ function Start ()
     sprite = GetComponent(SpriteRenderer);
 }
 
+function Update ()
+
+{
+	if(bounceCounter >=2)
+	{
+		Debug.Log("you lost the game");
+	}
+}
+
 
 function OnMouseOver ()
 
