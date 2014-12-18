@@ -49,6 +49,7 @@
      <Compile Include="Assets\Script\BallBounceUp2.js" />
      <Compile Include="Assets\Script\CharacterMotor.js" />
      <Compile Include="Assets\Script\JacksPickUps.js" />
+     <Compile Include="Assets\Script\SpawnScript.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
