@@ -1,11 +1,12 @@
 ﻿#pragma strict
 
 public var jumpHeight = 35;
-private var jumping = false;
+var jumping = false;
 public var bounceCounter =-1;
-var sprite : SpriteRenderer;
+var sprite : SpriteRenderer; // for the animation
 public var needPickup = 1;
-var caughtWin = false;
+var Playing = false;
+public var targetScript: JacksPickUps;
 
 function Start ()
 {
@@ -17,7 +18,8 @@ function Update ()
 
 {
 	if(bounceCounter >=2)
-	{
+	{	//stops playing after 2 bounces
+		Playing = false;
 		Debug.Log("you lost the game");
 	}
 }
@@ -31,18 +33,19 @@ function OnMouseOver ()
 if(bounceCounter <2 && jumping == true && Input.GetMouseButtonDown(0))
 {
 		needPickup++;
+		Playing = false; // stops playing if you catch it
 		Debug.Log("you caught it");
 }
 
 // the jump if it's still on the ground
 if (Input.GetMouseButtonDown(0) && jumping == false)
 {
-	needPickup++;
+	Playing = true;// starts playing once you you click to bounce
 	rigidbody2D.velocity.y = jumpHeight;
 }
 
 	
-	jumping = true;
+	jumping = true; 
 	
 	
 }
