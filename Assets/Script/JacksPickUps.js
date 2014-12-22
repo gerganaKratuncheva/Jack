@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-var pickUps = 0;//how much do you need	
+var pickUpsNeeded = 0;//how much do you need	
 var pickedUpAll = false;// did you pick all of them up
 var numberOfJax = 1;
 var jumpHeight = 8;
