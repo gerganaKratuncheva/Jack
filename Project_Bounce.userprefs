@@ -1,8 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\New Unity Project 1\Assets\qasdaso.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\BallBounceUp.js">
     <Files>
-      <File FileName="..\..\New Unity Project 1\Assets\qasdaso.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\NewGame.js" Line="24" Column="19" />
+      <File FileName="Assets\Script\BallBounceUp.js" Line="186" Column="17" />
+      <File FileName="Assets\Script\AdActivate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Skip.js" Line="15" Column="3" />
+      <File FileName="c:\Users\krasimir\Documents\GitHub\Project_Bounce\Assets\Standard Assets\UnityAds\Scripts\Advertisement.cs" Line="55" Column="8" />
+      <File FileName="Assets\Script\AdInitiate.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\krasimir\Documents\GitHub\Project_Bounce\Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXBuildFile.cs" Line="16" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
